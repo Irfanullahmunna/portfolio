@@ -2,7 +2,7 @@ import React from 'react';
 
 const MyEducation = () => {
     return (
-        <div>
+        <div className="p-2">
             <h1 className="text-center">My Education</h1>
 
             <h3>Under Graduation</h3>

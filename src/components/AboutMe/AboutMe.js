@@ -19,7 +19,7 @@ const AboutMe = () => {
                 <img className="rounded-circle w-40 p-5" src={ProfileImage} alt="" />
                 <h1>I'm Irfan Ullah Munna</h1>
                 <p className="mx-5">A self-motivated and enthusiastic web developer with a deep interest in JavaScript. To work in the Software industry with modern web technologies of different local & multinational Software/ IT agencies of Bangladesh and grow rapidly with increasing responsibilities.</p>
-                <button className="btn btn-danger"><a className="nav-link" href="https://drive.google.com/file/d/1XcdhlVSd-7m41MV6VKCGMlqCK3jO9-1G/view?usp=sharing">Resume</a></button>
+                <button className="btn btn-white p-2"><a className="nav-link" href="https://drive.google.com/file/d/1XcdhlVSd-7m41MV6VKCGMlqCK3jO9-1G/view?usp=sharing">Resume</a></button>
                 <Social></Social>
             </div>
 

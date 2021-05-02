@@ -31,8 +31,8 @@ const HeaderMain = () => {
                     </div>
 
                     <div className=" row m-5">
-                        <button className="col btn btn-danger p-2"> <Link className="nav-link" to="/about">About</Link></button>
-                        <button className="col btn btn-danger p-2"> <Link className="nav-link" to="/contact">Get in Touch</Link></button>
+                        <button className="col btn btn-white p-2"> <Link className="nav-link" to="/about">About</Link></button>
+                        <button className="col btn btn-white p-2"> <Link className="nav-link" to="/contact">Get in Touch</Link></button>
                     </div>
                 </div>
                 

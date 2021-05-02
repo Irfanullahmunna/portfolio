@@ -26,21 +26,21 @@ const Home = () => {
 
             {/* Work Container  */}
             <div className="">
-                <h1 className="text-center">Some of my Works</h1>
-                <div>
+                <h1 className="text-center mb-5">Some of my Works</h1>
+                <div className="mb-5">
                     <Work1></Work1>
                 </div>
-                <div>
+                <div className="mb-5">
                     <Work2></Work2>
                 </div>
-                <div>
+                <div className="mb-5">
                     <Work3></Work3>
                 </div>
             </div>
 
             {/* Blog Container */}
             <div className="">
-                <h1 className="text-center">Some of my Blogs</h1>
+                <h1 className="text-center mb-5">Some of my Blogs</h1>
                 <div className="row row-cols-1 row-cols-md-3 g-4">
                     <div className="col">
                         <Blog1></Blog1>

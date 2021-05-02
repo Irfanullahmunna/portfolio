@@ -1,9 +1,12 @@
 import React from 'react';
-import ProfileImage from '../../../images/ProfileImage.jpg';
+import WorkImage1 from '../../../images/work2-1.png';
+import WorkImage2 from '../../../images/work2-2.png';
+import WorkImage3 from '../../../images/work2-3.png';
+
 
 const Work2 = () => {
     return (
-        <div className="container">
+        <div className="container mt-5">
             <div className="row">
                 <div className="col-md-6">
                     <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
@@ -14,30 +17,30 @@ const Work2 = () => {
                         </div>
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img src={ProfileImage} style={{height:'500px'}} className="img-fluid d-block w-100" alt="..." />
-                                <div className="carousel-caption d-none d-md-block">
-                                    <h5>First slide label</h5>
-                                    <button className="btn btn-danger">Live</button>
-                                    <button className="btn btn-danger">Github</button>
-                                    <p>Some representative placeholder content for the first slide.</p>
+                                <img src={WorkImage1} style={{height:'500px'}} className="img-fluid d-block w-100" alt="..." />
+                                <div className="carousel-caption">
+                                    <h5 style={{color:'white'}}>Personal Website</h5>
+                                    <button style={{color:'black'}} className="btn btn-danger"><a href="https://github.com/Irfanullahmunna/C181001_Project">Live</a></button>
+                                    <button style={{color:'black'}} className="btn btn-danger"><a href="https://github.com/Irfanullahmunna/C181001_Project">Github</a></button>
+                                    {/* <p style={{color:'black'}}>Some representative placeholder content for the first slide.</p> */}
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={ProfileImage} style={{height:'500px'}} className="img-fluid d-block w-100" alt="..." />
-                                <div className="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
-                                    <button className="btn btn-danger">Live</button>
-                                    <button className="btn btn-danger">Github</button>
-                                    <p>Some representative placeholder content for the first slide.</p>
+                                <img src={WorkImage2} style={{height:'500px'}} className="img-fluid d-block w-100" alt="..." />
+                                <div className="carousel-caption">
+                                    <h5 style={{color:'white'}}>Personal Website</h5>
+                                    <button style={{color:'black'}} className="btn btn-danger"><a href="https://github.com/Irfanullahmunna/C181001_Project">Live</a></button>
+                                    <button style={{color:'black'}} className="btn btn-danger"><a href="https://github.com/Irfanullahmunna/C181001_Project">Github</a></button>
+                                    {/* <p style={{color:'black'}}>Some representative placeholder content for the first slide.</p> */}
                                 </div>
                             </div>
                                 <div className="carousel-item">
-                                <img src={ProfileImage} style={{height:'500px'}} className="img-fluid d-block w-100" alt="..." />
-                                <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
-                                    <button className="btn btn-danger">Live</button>
-                                    <button className="btn btn-danger">Github</button>
-                                    <p>Some representative placeholder content for the first slide.</p>
+                                <img src={WorkImage3} style={{height:'500px'}} className="img-fluid d-block w-100" alt="..." />
+                                <div className="carousel-caption">
+                                    <h5 style={{color:'white'}}>Personal Website</h5>
+                                    <button style={{color:'black'}} className="btn btn-danger"><a href="https://github.com/Irfanullahmunna/C181001_Project">Live</a></button>
+                                    <button style={{color:'black'}} className="btn btn-danger"><a href="https://github.com/Irfanullahmunna/C181001_Project">Github</a></button>
+                                    {/* <p style={{color:'black'}}>Some representative placeholder content for the first slide.</p> */}
                                 </div>
                                 </div>
                         </div>
@@ -52,39 +55,31 @@ const Work2 = () => {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <h1>Creative Agency</h1>
+                    <h1>Personal Website</h1>
                     <p>
-                    It is an agency website, which serves some services like web development, graphics design, mobile application design, photography etc. All the facilities of this website are listed here:
+                    It is a portfolio website, which contain some information like about yourself, latest working project, education, contact etc. All the facilities of this website are listed here:
                     </p>
                     <ul>
-                        <li>Admin can see all order lists of the users and change the order's status by drop down menu.</li>
-                        <li>Admin can add more services</li>
-                        <li>Admin can make a person 'Admin' by providing those person's email.</li>
-                        <li>User can order a service by providing a demo picture</li>
-                        <li>User can see his all orders and order's status.</li>
+                        <li>Anyone can see all information lists of the devloper and change the page to navigation menu.</li>
+                        <li>Devloper can add more services</li>
+                        <li>User can see recently working projects providing a demo picture</li>
+                        <li>User can see his education information.</li>
                         <li>User can submit a review about a service, which are shown in the homepage randomly.</li>
                     </ul>
 
                     <h2>Technology</h2>
                     
                     <div className="">
-                        <button>HTML5</button>
-                        <button>CSS3</button>
-                        <button>Bootstrap4</button>
-                        <button>React Bootstrap</button>
-                        <button>JavaScript</button>
-                        <button>React.js</button>
-                        <button>React Router</button>
-                        <button>Material UI</button>
-                        <button>Node.js</button>
-                        <button>Express.js</button>
-                        <button>MongoDB</button>
+                        <button className="btn btn-white p-2">HTML5</button>
+                        <button className="btn btn-white p-2">CSS3</button>
+                        <button className="btn btn-white p-2">Bootstrap4</button>
+                        <button className="btn btn-white p-2">JavaScript</button>
                     </div>
                     <br/>
                     <br/>
                     <div className="text-center">
-                        <button className="btn btn-danger">Live</button>
-                        <button className="btn btn-danger">Github</button>
+                    <button style={{color:'black'}} className="btn btn-danger"><a href="https://github.com/Irfanullahmunna/C181001_Project">Live</a></button>
+                                    <button style={{color:'black'}} className="btn btn-danger"><a href="https://github.com/Irfanullahmunna/C181001_Project">Github</a></button>
                     </div>
                 </div>
             </div>

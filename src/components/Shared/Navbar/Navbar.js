@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <section className="container">
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <section className="container mt-2">
+            <nav className="navbar navbar-expand-lg navbar-light bg-white">
                 <div className="container-fluid">
                     {/* <Link className="navbar-brand" to="/">Shanto</Link> */}
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@ const Navbar = () => {
                                 <Link className="nav-link" to="/contact">Contact</Link>
                             </li>
                             <li>
-                                <button className="btn btn-primary"><a className="nav-link" href="https://drive.google.com/file/d/1XcdhlVSd-7m41MV6VKCGMlqCK3jO9-1G/view?usp=sharing">Resume</a></button>
+                                <Link className="nav-link"><a className="" href="https://drive.google.com/file/d/1XcdhlVSd-7m41MV6VKCGMlqCK3jO9-1G/view?usp=sharing">Resume</a></Link>
                             </li>
                                       
                         </div>
