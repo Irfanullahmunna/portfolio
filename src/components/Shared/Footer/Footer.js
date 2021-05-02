@@ -3,7 +3,7 @@ import Social from '../Social/Social';
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className="container">
             <div className="text-center">
                 <p>Copyright {(new Date()).getFullYear} All Right Reserved</p>
                 <p>Chittagong, Bangladesh</p>
