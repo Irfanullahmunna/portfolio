@@ -32,7 +32,7 @@ const Navbar = () => {
                                 <Link className="nav-link" to="/contact">Contact</Link>
                             </li>
                             <li>
-                            <button className="btn btn-primary"><a className="nav-link" href="https://drive.google.com/file/d/1XcdhlVSd-7m41MV6VKCGMlqCK3jO9-1G/view?usp=sharing">Resume</a></button>
+                                <button className="btn btn-primary"><a className="nav-link" href="https://drive.google.com/file/d/1XcdhlVSd-7m41MV6VKCGMlqCK3jO9-1G/view?usp=sharing">Resume</a></button>
                             </li>
                                       
                         </div>

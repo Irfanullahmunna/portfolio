@@ -1,11 +1,18 @@
 import React from 'react';
+import Blog1 from '../../Blogs/Blog1/Blog1';
+import Blog2 from '../../Blogs/Blog2/Blog2';
+import Blog3 from '../../Blogs/Blog3/Blog3';
 // import Blogs from '../../Blogs/Blogs';
 // import Contact from '../../Contact/Contact';
 // import AboutMe from '../../AboutMe/AboutMe';
 import Footer from '../../Shared/Footer/Footer';
 import Navbar from '../../Shared/Navbar/Navbar';
+import Work1 from '../../Works/Work1/Work1';
+import Work2 from '../../Works/Work2/Work2';
+import Work3 from '../../Works/Work3/Work3';
 // import Works from '../../Works/Works';
 import HeaderMain from '../HeaderMain/HeaderMain';
+import HomeContact from '../HomeContact/HomeContact';
 
 const Home = () => {
     return (
@@ -16,6 +23,51 @@ const Home = () => {
             {/* <Contact></Contact> */}
             {/* <Works></Works> */}
             {/* <Blogs></Blogs> */}
+
+            {/* Work Container  */}
+            <div className="">
+                <h1 className="text-center">Some of my Works</h1>
+                <div>
+                    <Work1></Work1>
+                </div>
+                <div>
+                    <Work2></Work2>
+                </div>
+                <div>
+                    <Work3></Work3>
+                </div>
+            </div>
+
+            {/* Blog Container */}
+            <div className="">
+                <h1 className="text-center">Some of my Blogs</h1>
+                <div className="row row-cols-1 row-cols-md-3 g-4">
+                    <div className="col">
+                        <Blog1></Blog1>
+                    </div>
+                    <div className="col">
+                        <Blog2></Blog2>
+                    </div>
+                    <div className="col">
+                        <Blog3></Blog3>
+                    </div>
+                    <div className="col">
+                        <Blog1></Blog1>
+                    </div>
+                    <div className="col">
+                        <Blog2></Blog2>
+                    </div>
+                    <div className="col">
+                        <Blog3></Blog3>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div>
+                <HomeContact></HomeContact>
+            </div>
+
             <Footer></Footer>
             
         </div>
