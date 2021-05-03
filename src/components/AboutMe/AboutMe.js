@@ -15,7 +15,7 @@ const AboutMe = () => {
                 <Navbar></Navbar>
             </div>
 
-            <div className="text-center">
+            <div data-aos="zoom-in" className="text-center">
                 <img className="rounded-circle w-40 p-5" src={ProfileImage} alt="" />
                 <h1>I'm Irfan Ullah Munna</h1>
                 <p className="mx-5">A self-motivated and enthusiastic web developer with a deep interest in JavaScript. To work in the Software industry with modern web technologies of different local & multinational Software/ IT agencies of Bangladesh and grow rapidly with increasing responsibilities.</p>
@@ -24,10 +24,10 @@ const AboutMe = () => {
             </div>
 
             <div className="row">
-                <div className="col-md-6 mt-5">
+                <div data-aos="fade-right" className="col-md-6 mt-5">
                     <MySkill></MySkill>
                 </div>
-                <div className="col-md-6 mt-5">
+                <div data-aos="fade-left" className="col-md-6 mt-5">
                     <MyEducation></MyEducation>
                 </div>
             </div>

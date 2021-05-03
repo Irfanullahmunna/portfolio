@@ -13,15 +13,15 @@ const Works = () => {
                 <Navbar></Navbar>
             </div>
 
-                <h1 className="text-center">Some of my Works</h1>
+                <h1 className="text-center mt-5">Some of my Works</h1>
 
-                <div>
+                <div data-aos="fade-right" className="">
                     <Work1></Work1>
                 </div>
-                <div>
+                <div data-aos="fade-left" className="">
                     <Work2></Work2>
                 </div>
-                <div>
+                <div data-aos="fade-right" className="">
                     <Work3></Work3>
                 </div>
 

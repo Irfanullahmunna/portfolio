@@ -11,12 +11,12 @@ const HeaderMain = () => {
             {/* <div className="d-flex align-items-center"> */}
             <div className="row align-items-center">
 
-                <div className="col-md-6 text-center">
+                <div data-aos="zoom-in" data-aos-duration="3000" className="col-md-6 text-center">
                     {/* <h1>Hi</h1> */}
                     <img className="rounded-circle" src={ProfileImage} alt=""/>
                 </div>
 
-                <div className="col-md-6 text-center">
+                <div data-aos="zoom-in" className="col-md-6 text-center">
                     <p className="mt-5">Hello , I'm</p>
                     <h1>Irfan Ullah Munna</h1>
                     <div className="row">

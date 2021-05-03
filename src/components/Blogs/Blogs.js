@@ -14,26 +14,26 @@ const Blogs = () => {
                 <Navbar></Navbar>
             </div>
 
-            <h1 className="text-center">Some of my Blogs</h1>
+            <h1 className="text-center m-5">Some of my Blogs</h1>
 
             <div className="">
                 <div className="row row-cols-1 row-cols-md-3 g-4">
-                    <div className="col">
+                    <div data-aos="zoom-in" className="col">
                         <Blog1></Blog1>
                     </div>
-                    <div className="col">
+                    <div data-aos="zoom-in" className="col">
                         <Blog2></Blog2>
                     </div>
-                    <div className="col">
+                    <div data-aos="zoom-in" className="col">
                         <Blog3></Blog3>
                     </div>
-                    <div className="col">
+                    <div data-aos="zoom-in" className="col">
                         <Blog1></Blog1>
                     </div>
-                    <div className="col">
+                    <div data-aos="zoom-in" className="col">
                         <Blog2></Blog2>
                     </div>
-                    <div className="col">
+                    <div data-aos="zoom-in" className="col">
                         <Blog3></Blog3>
                     </div>
                     

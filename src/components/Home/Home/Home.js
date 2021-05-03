@@ -27,13 +27,13 @@ const Home = () => {
             {/* Work Container  */}
             <div className="">
                 <h1 className="text-center mb-5">Some of my Works</h1>
-                <div className="mb-5">
+                <div data-aos="fade-left" className="mb-5">
                     <Work1></Work1>
                 </div>
-                <div className="mb-5">
+                <div data-aos="fade-right" className="mb-5">
                     <Work2></Work2>
                 </div>
-                <div className="mb-5">
+                <div data-aos="fade-left" className="mb-5">
                     <Work3></Work3>
                 </div>
             </div>
@@ -42,22 +42,22 @@ const Home = () => {
             <div className="">
                 <h1 className="text-center mb-5">Some of my Blogs</h1>
                 <div className="row row-cols-1 row-cols-md-3 g-4">
-                    <div className="col">
+                    <div data-aos="zoom-in" className="col">
                         <Blog1></Blog1>
                     </div>
-                    <div className="col">
+                    <div data-aos="zoom-in" className="col">
                         <Blog2></Blog2>
                     </div>
-                    <div className="col">
+                    <div data-aos="zoom-in" className="col">
                         <Blog3></Blog3>
                     </div>
-                    <div className="col">
+                    <div data-aos="zoom-in" className="col">
                         <Blog1></Blog1>
                     </div>
-                    <div className="col">
+                    <div data-aos="zoom-in" className="col">
                         <Blog2></Blog2>
                     </div>
-                    <div className="col">
+                    <div data-aos="zoom-in" className="col">
                         <Blog3></Blog3>
                     </div>
                     
